@@ -16,18 +16,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      {
-        "adapter": "kotlin",
-        "value": "me.fzzyhmstrs.timefall_coin.TC"
-      }
+      "me.fzzyhmstrs.timefall_coin.TimefallCoin"
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.22",
+    "fabricloader": ">=0.16.0",
     "fabric": "*",
     "fabric-key-binding-api-v1": "*",
-    "fabric-language-kotlin": ">=1.7.4+kotlin.1.6.21",
-    "minecraft": ">=1.20.1",
-    "java": ">=17"
+    "minecraft": ">=1.21.1",
+    "java": ">=21"
   }
 }
