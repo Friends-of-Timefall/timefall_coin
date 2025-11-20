@@ -15,6 +15,7 @@
     }
   ],
   "result": {
-    "item": "timefall_coin:coin_pile"
+    "count": 1,
+    "id": "timefall_coin:coin_pile"
   }
 }

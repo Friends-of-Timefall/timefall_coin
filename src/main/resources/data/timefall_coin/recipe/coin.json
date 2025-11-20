@@ -6,7 +6,7 @@
     }
   ],
   "result": {
-    "item": "timefall_coin:coin",
-    "count": 4
+    "count": 4,
+    "id": "timefall_coin:coin"
   }
 }
