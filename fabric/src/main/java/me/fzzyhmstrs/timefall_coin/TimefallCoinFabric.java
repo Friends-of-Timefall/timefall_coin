@@ -24,7 +24,7 @@ import java.nio.file.Files;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class TimefallCoin implements ModInitializer {
+public class TimefallCoinFabric implements ModInitializer {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     public static final String MOD_ID = "timefall_coin";
     private static Float CHEST_CHANCE = null;

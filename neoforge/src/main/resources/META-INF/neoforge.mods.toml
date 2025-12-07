@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+issueTrackerURL = "https://github.com/fzzyhmstrs/timefall_coin/issues"
+license = "Public Domain"
+
+[[mods]]
+modId = "timefall_coin"
+version = "${version}"
+displayName = "Timefall Coin"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/timefall-coin"
+authors = "fzzyhmstrs, Chronosacaria"
+description = '''
+Adds a coin and coin stack items that can used as server currency.
+'''
+logoFile = "assets/timefall_coin/icon.png"
+
+[[dependencies.timefall_coin]]
+modId = "neoforge"
+type = "REQUIRED"
+versionRange = "[21.0.0-beta,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.timefall_coin]]
+modId = "minecraft"
+type = "REQUIRED"
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
