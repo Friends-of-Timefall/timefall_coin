@@ -3,10 +3,11 @@
   "id": "timefall_coin",
   "version": "${version}",
   "name": "Timefall Coin",
-  "description": "Adds a Timefall Coin that is used by the spawn-area NPCs for special trades.",
+  "description": "Adds a coin and coin stack items that can used as server currency.",
   "authors": [
-    "fzzyhmstrs"
+    "fzzyhmstrs", "Chronosacaria"
   ],
+  "license": "Public Domain",
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/timefall_coin",
     "issues": "https://github.com/fzzyhmstrs/timefall_coin/issues",
@@ -16,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.fzzyhmstrs.timefall_coin.TimefallCoin"
+      "me.fzzyhmstrs.timefall_coin.TimefallCoinFabric"
     ]
   },
   "depends": {
